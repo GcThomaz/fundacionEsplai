@@ -1,0 +1,22 @@
+Programa: majorNumero
+Entorno: A, B son valores enteros
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de A: ";
+		leer A;
+		escribir "Valor de B: ";
+		leer B;
+	
+		if (A > B){
+			Escribir " A > B ";
+			
+		if else (A < B)
+			Escribir " A < B "
+		}
+		else (){
+			Escribir " A = B ";
+		
+	FinAlg

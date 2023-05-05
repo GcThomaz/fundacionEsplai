@@ -1,0 +1,18 @@
+Programa: Cambio de Dados A&B
+Entorno: A, B son valores enteros
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de A: ";
+		leer A;
+		escribir "Valor de B: ";
+		leer B;
+	
+		A = B;
+		B = A;
+	
+		escribir "Los valores cambiados son: A y B";
+		
+	FinAlg
