@@ -8,9 +8,9 @@
     <h1><strong>Formulario de Registro</strong></h1>
 
     <form action="" method="get">
-      <p>Nombre: <input type="text" maxlength="50"/></p>
+      <p>Nombre: <input type="text" maxlength="50" /></p>
 
-      <p>Apellidos: <input type="text" maxlength="50"/></p>
+      <p>Apellidos: <input type="text" maxlength="50" /></p>
 
       <p>
         Sexo:
@@ -20,6 +20,20 @@
       </p>
 
       <p>Correo: <input type="text" /></p>
+
+      <label for="provincias">Provincia</label>
+      <select name="provincias" id="provincias">
+        <option value="Alicante">Alicante</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Valencia">Valencia</option>
+      </select>
+      <br />
+      <br />
+
+      <textarea name="textoMultilinea" id="textoMultilinea" cols="30" rows="10">
+Descripcion</textarea
+      >
 
       <p>
         <input type="checkbox" checked id="Info1" />
