@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <link rel="shortcut icon" href="../Imagens/2849788_folder_document_multimedia_icon.png" type="image/x-icon">
     <title>Formulario de registro - Mi web</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1><strong>Formulario de Registro</strong></h1>
-    <p>Nombre: <input type="text"></p>
 
-    <p>Apellidos: <input type="text"></p>
+    <form action="" method="get">
+      <p>Nombre: <input type="text" maxlength="50"/></p>
 
-    <p>Sexo: <label><input type="radio" name="opcion" value="Hombre">Hombre</label>
-            
-             <label><input type="radio" name="opcion" value="Mujer">Mujer</label></p>
+      <p>Apellidos: <input type="text" maxlength="50"/></p>
 
-    <p>Correo: <input type="text"></p>
+      <p>
+        Sexo:
+        <label><input type="radio" name="opcion" value="Hombre" />Hombre</label>
 
-    <p><input type="checkbox" id="Info1">
-    <label for="Info1">Deseo recibir informacion sobre novedades y ofertas.</label></p>
+        <label><input type="radio" name="opcion" value="Mujer" />Mujer</label>
+      </p>
 
-    <p><input type="checkbox" id="Info2">
-    <label for="Info2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos.</label></p>
+      <p>Correo: <input type="text" /></p>
 
-    <p><button type="submit">Enviar</button></p>
-</body>
+      <p>
+        <input type="checkbox" checked id="Info1" />
+        <label for="Info1"
+          >Deseo recibir informacion sobre novedades y ofertas.</label
+        >
+      </p>
+
+      <p>
+        <input type="checkbox" id="Info2" />
+        <label for="Info2"
+          >Declaro haber leido y aceptar las condiciones generales del programa
+          y la normativa sobre proteccion de datos.</label
+        >
+      </p>
+
+      <p><button type="submit">Enviar</button></p>
+    </form>
+  </body>
 </html>
