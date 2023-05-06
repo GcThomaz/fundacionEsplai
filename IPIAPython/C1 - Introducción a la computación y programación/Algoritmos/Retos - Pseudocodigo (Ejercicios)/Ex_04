@@ -1,0 +1,17 @@
+Programa: hipotenusa
+Entorno: catetoA, catetoB, hipotenusa son valores enteros
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de cateto A : ";
+		leer catetoA;
+		escribir "Valor de cateto B : ";
+		leer catetoB;
+	
+		hipotenusa = sqrt (catetoA^2 + catetoB^2);
+		
+		Escribe "La hipotenusa es: hipotenusa";
+		
+	FinAlg

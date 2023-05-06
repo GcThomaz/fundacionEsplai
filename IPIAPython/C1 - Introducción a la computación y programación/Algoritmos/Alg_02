@@ -1,0 +1,24 @@
+Programa: calculoNumeros
+Entorno: A, B, suma, producto son valores enteros
+division, resta son valores reales
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de A: ";
+		leer A;
+		escribir "Valor de B: ";
+		leer B;
+	
+		sum = A + B;
+		division = A/B;
+		producto = A * B;
+		resto = A % B;
+	
+		escribir "La soma de A + B es: sum";
+		escribir "La division de A / B es: division";
+		escribir "El producto de A * B es: producto";
+		escribir "El resto de A % B es: resta";
+		
+	FinAlg
