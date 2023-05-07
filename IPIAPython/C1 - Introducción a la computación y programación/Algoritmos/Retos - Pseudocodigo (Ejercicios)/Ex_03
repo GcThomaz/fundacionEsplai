@@ -1,0 +1,23 @@
+Programa: majorNumeroABC
+Entorno: A, B, C son valores enteros
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de A: ";
+		leer A;
+		escribir "Valor de B: ";
+		leer B;
+		escribir "Valor de C: ";
+		leer C;
+	
+		if (A > B && B > C){
+			Escribir " A > B y A > C";
+		if else (B > A && A > C)
+			Escribir " B > A y A > C";
+		} else {
+			Escribir " C > A y C > B";
+		}
+		
+	FinAlg

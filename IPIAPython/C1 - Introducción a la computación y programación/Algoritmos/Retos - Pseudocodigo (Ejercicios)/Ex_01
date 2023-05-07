@@ -1,0 +1,18 @@
+Programa: sumaNumeros
+Entorno: A, B, suma son valores enteros
+
+Algoritmo:
+
+	InicioAlg
+	
+		escribir "Valor de A: ";
+		leer A;
+		escribir "Valor de B: ";
+		leer B;
+	
+		sum = A + B;
+	
+	
+		escribir "La soma de A + B es: sum";
+		
+	FinAlg
