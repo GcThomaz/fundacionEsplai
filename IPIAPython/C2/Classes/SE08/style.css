@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+
+table {
+    border: black 1px solid;
+}
+
+td {
+    background-color: aliceblue;
+}
+
+th {
+    background-color: darkgrey;
+}
+
+h2{
+    color: chocolate;
+}
