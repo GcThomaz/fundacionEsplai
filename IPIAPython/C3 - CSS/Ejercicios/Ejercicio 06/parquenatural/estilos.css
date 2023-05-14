@@ -1,0 +1,90 @@
+#total{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    display: flex;
+    background-color: grey;
+    margin: 20px;
+    width: 950px;
+    border-radius: 3%;
+}
+#all{
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+    border: 5px solid grey;
+    margin: 10px;
+    width: 900px;
+    border-radius: 2.5%;
+}
+main{
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imagemPano{
+    border-radius: 50%;
+}
+#conteudo{
+    display: flex;
+}
+h1{
+    margin-left: 18%;
+    font-size: 32px;
+}
+.h1-1{
+    color: darkgreen;
+}
+.h1-2{
+    color: coral;
+}
+#lista{
+    margin: 20px 20px 20px 0px;
+    font-size: 12px;
+}
+#list1{
+    text-align: center;
+    background: linear-gradient(white, burlywood);
+    border: 1px solid rgb(179, 178, 178);
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+}
+#list2, #list3, #list4{
+    background: linear-gradient(white, lightgreen);
+    border: 1px solid rgb(179, 178, 178);
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#section2{
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+    background:  linear-gradient( #E8E8E8, white, white, #E8E8E8);
+}
+h2{
+    font-size: 26px;
+    color: forestgreen;
+    margin-top: 10px;
+}
+h4{
+    font-size: 20px;
+    color: darkorange;
+    margin-top: 10px;
+}
+hr{
+    border: 1px solid forestgreen;
+    margin-top: 0px;
+    opacity: 0.5;
+}
+p{
+    color: black;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 12px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkslategray;
+}
