@@ -1,0 +1,29 @@
+/*ESTILOS Table*/
+table{
+    border: 1px solid blue;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+table, tr, th, td{
+    border: 1px solid blue;
+    border-spacing: 0;
+}
+.line1{
+    background-color: darkolivegreen;
+    color: lightgreen;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-size: medium;
+}
+.line2, .line4{
+    background-color: lightgreen;
+    padding: 5px 10px 5px 0px;
+}
+.line3{
+    background-color: green;
+    padding: 5px 10px 5px 0px;
+}
+.align{
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 3px solid grey;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+width: 99%;
+height: 97%;
+}
+table, tr, th{
+    border: 1px solid grey;
+    border-spacing: 0;
+}
+#line-2{
+    background-color: lightgreen;
+}
+.celda-2{
+    background-color: aquamarine;
+    text-align: start;
+}
+.celda-6{
+    background-color: pink;
+    text-align: end;
+    vertical-align:bottom;
+}
+.text-color{
+    color: red;
+}

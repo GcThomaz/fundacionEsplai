@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+.container{
+   border: 2px solid red;
+   margin-bottom: 5px;
+}
+#head{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#main{
+    height: 64vh;
+    display: flex;
+}
+#footer{
+    height: 15vh;
+    display: flex;
+}
+.main{
+    border: 2px solid green;
+}
+#mainLeft{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#mainRight{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxFooter{
+    border: 2px solid blueviolet;
+    width: 20%;
+}
