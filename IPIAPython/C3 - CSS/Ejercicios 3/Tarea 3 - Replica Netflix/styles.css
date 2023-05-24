@@ -1,0 +1,94 @@
+body{
+    background-color: #141414;
+    margin: 0;
+}
+/*#div-main{
+}*/
+#header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#header-1{
+    height: 50px;
+    width: 10%;
+    margin-left: 20px;
+    color: red;
+    font-weight: 800;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#header-navbar{
+    height: 50px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#header-menu{
+    background-color: aqua;
+    height: 50px;
+    width: 40%;
+    margin-right: 20px;
+}
+.conjunto{
+    margin-bottom: 50px;
+}
+#container{
+    padding: 20px;
+}
+.head-h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    height: 5%;
+    margin-bottom: 10px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 150px;
+    gap: 5px;
+}
+.image-1{
+    background-image: url('../imagenes/benjamin-gremler-q_TzfAt4NQ8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+.image-2{
+    background-image: url('../imagenes/biel-morro-d0xjEv-WJQk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.image-3{
+    background-image: url('../imagenes/daniel-corneschi-N6HTCyN50p0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.image-4{
+    background-image: url('../imagenes/logan-armstrong-hVhfqhDYciU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.image-5{
+    background-image: url('../imagenes/theodor-vasile-LSscVPEyQpI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+#footer{
+    background-color: lightgreen;
+    height: 62px;
+}

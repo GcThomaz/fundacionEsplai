@@ -1,0 +1,28 @@
+body{
+    background-image: url('../imagenes/ac.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: blueviolet;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: red solid 3px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#diva{
+    background-image: url('../imagenes/back_mantel.jpg');
+
+}
+#div1{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+#divb{
+    background-image: url('../imagenes/back_mantel.jpg');
+    border: 2px solid black;
+}

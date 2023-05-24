@@ -1,0 +1,24 @@
+body{
+    background-image: url('../img/Tomahawk-fundo.jpg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: transparent !important;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar a{
+    text-transform: uppercase;
+    color: #c0855d;
+}
+.title{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    color: #f6e4c5;
+}

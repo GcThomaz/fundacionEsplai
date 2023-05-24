@@ -1,0 +1,62 @@
+#main{
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#anterior{
+    background-color: aquamarine;
+    border: 1px solid blue;
+    position: relative;
+    height: 20%;
+    width: 40%;
+}
+.top{
+    background-image: url('../../Clases/imagenes/f03.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -40px;
+    height: 100%;
+    width: 100%;
+}
+.center{
+    background-image: url('../../Clases/imagenes/f02\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -3px;
+    height: 100%;
+    width: 100%;
+}
+.bottom{
+    background-image: url('../../Clases/imagenes/f01.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+}
+#contenido{
+    background-color: aquamarine;
+    position: relative;
+    border: 2px solid red;
+    height: 50%;
+    width: 80%;
+    margin-left: 30px;
+}
+.contenido-top{
+    background-image: url('../../Clases/imagenes/f03.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.contenido-center{
+    background-image: url('../../Clases/imagenes/f02\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+main{
+    background-color: olive;
+}
+h1, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
+}

@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section, tabla, tr, th, td{
+    border: 1px solid grey;
+    text-align: center;
+}
+.tr-1{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.tr-2{
+    background-color: salmon;
+    color: darksalmon;
+}
+.tr-3{
+    background-color: lightyellow;
+    color: darkorange;
+}
+.tr-all{
+    background-color: lightsalmon;
+    color: salmon;
+}

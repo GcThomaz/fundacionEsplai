@@ -1,0 +1,39 @@
+#div1 {
+    border: 2px red solid;
+    position: sticky;
+    top: 2px;
+    margin:20px 20px 5px 20px;
+    height: 40px;
+}
+
+#div2 {
+    border: 2px blue solid;
+    margin: 0 20px 5px 20px;
+    height: 170vh;
+    padding: 0;
+}
+
+#div3 {
+    border:2px violet solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+#div4 {
+    border: green 2px solid;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+    height: 800px;
+}
+
+#div5 {
+    border: 2px orangered solid;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60%;
+    height: 800px;
+}

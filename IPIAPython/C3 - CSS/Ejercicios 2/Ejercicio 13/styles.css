@@ -1,0 +1,85 @@
+#main{
+    border: 1px solid grey;
+}
+#main-1{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{ 
+    font-weight: bold;
+}
+#main-2{
+    border-top: 1px solid grey;
+    height: 10vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-3{
+    border-top: 1px solid grey;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.box-main3{
+    border: 1px solid grey;
+    width: 33.33%;
+}
+/*Coluna 1*/
+#cell-2{
+    background-color: aquamarine;
+    border-bottom: 2px solid grey;
+    height: 66%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#cell-7{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Coluna 2*/
+#colum-2{
+    color: red;
+}
+#cell-3{
+    border-bottom: 2px solid grey;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell-5{
+    border-bottom: 2px solid grey;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell-8{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Coluna 3*/
+#cell-4{
+    border-bottom: 2px solid grey;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell-6{
+    background-color: pink;
+    border-bottom: 2px solid grey;
+    height: 66%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

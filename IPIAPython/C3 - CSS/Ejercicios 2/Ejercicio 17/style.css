@@ -1,0 +1,98 @@
+body{
+    background-image: url('../../Clases/imagenes/ac.jpg');
+    display: flex;
+    justify-content: center;
+}
+#mom{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.boxA{
+    background-image: url('../../Clases/imagenes/back_mantel.jpg');
+}
+.boxB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoB{
+    background-image: url('../../Clases/imagenes/back_mantel.jpg');
+    width: 80%;
+    height: 80%;
+}
+.boxC{
+    background-image: url('../../Clases/imagenes/back_mantel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.conteudoD{
+    background-image: url('../../Clases/imagenes/back_mantel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+.boxE{
+    background-image: url('../../Clases/imagenes/dh.jpg');
+}
+.boxF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.conteudoF{
+    background-image: url('../../Clases/imagenes/dh.jpg');
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+.boxG{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.conteudoG{
+    background-image: url('../../Clases/imagenes/dh_2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.boxH{
+    background-color: antiquewhite;
+}
+.conteudoH{
+    background-image: url('../../Clases/imagenes/dh_3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.boxI{
+    background-image: linear-gradient(to right, lightgreen, green, darkgreen);
+}
+.boxJ{
+    background-image: linear-gradient(rgb(241, 130, 130), red, darkred);
+}
+.boxK{
+    background-image: linear-gradient(lightgreen, rgb(88, 175, 88), darkgreen);
+}
+.boxL{
+    background-image: linear-gradient(transparent,lightgreen, green);
+}
