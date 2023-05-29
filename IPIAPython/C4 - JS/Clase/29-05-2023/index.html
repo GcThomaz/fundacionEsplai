@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../../reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>29-05-23 (Calculator)</title>
+  </head>
+  <body>
+    <main>
+      <div id="align">
+        <table>
+          <tr>
+            <td colspan="4">
+              <form>
+                <input class="input" id="result" placeholder="?">
+              </form>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="lightButton" onclick="cleanInput('C')">C</button>
+            </td>
+            <td>
+              <button class="lightButton" onclick="inverso()">+/-</button>
+            </td>
+            <td>
+              <button class="lightButton" onclick="porciento()">%</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionFunction('/')">&divide;</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="darkButton" onclick="add(7)">7</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(8)">8</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(9)">9</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionFunction('*')">x</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="darkButton" onclick="add(4)">4</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(5)">5</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(6)">6</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionFunction('-')">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="darkButton" onclick="add(1)">1</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(2)">2</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add(3)">3</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionFunction('+')">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="zeroButton" onclick="add(0)">0</button>
+            </td>
+            <td>
+              <button class="darkButton" onclick="add('.')">.</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="igual()">=</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="orangeButton" onclick="cuadrado()">X&sup2;</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="cubo()">Y&sup3;</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="pi()">&#960;</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="raiz()">&radic;</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="orangeButton" onclick="operacionMemorys('c')">mc</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionMemorys('+')">m+</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionMemorys('-')"">m-</button>
+            </td>
+            <td>
+              <button class="orangeButton" onclick="operacionMemorys('r')"">mr</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

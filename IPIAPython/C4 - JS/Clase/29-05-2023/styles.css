@@ -1,0 +1,54 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: black;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 4px;
+    font-size: 30px;
+    font-weight: 250;
+}
+.input{
+    border: none;
+    width: 250px;
+    font-size: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+.zeroButton{
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+    background-color: #313131;
+    color: white;
+}
+.darkButton {
+    background-color: #333333;
+    color: white;
+    }
+.lightButton{
+    background-color: #a6a6a6;
+    color: black;
+}
+.orangeButton{
+    background-color: #FF9501;
+    color: white;
+}
+.orangeButton{
+    background-color: #FF9501;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color: white;
+    }
+
+
+
