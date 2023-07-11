@@ -1,0 +1,8 @@
+#footer-box {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(202, 191, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
