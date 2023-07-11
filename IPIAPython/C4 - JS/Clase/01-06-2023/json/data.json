@@ -1,0 +1,52 @@
+[
+  {
+    "nombre": "Gustavo Thomaz",
+    "email": "mihifiden@gmail.com",
+    "edad": 50,
+    "works": [
+      {
+        "empresa": "Twooweb",
+        "ubicacion": "Barcelona",
+        "f_start": "26-07-1999",
+        "f_end": "27-09-2023"
+      },
+      {
+        "empresa": "Geek&Chic",
+        "ubicacion": "Valencia",
+        "f_start": "20-01-2012",
+        "f_end": "actualidad"
+      },
+      {
+        "empresa": "Twitter",
+        "ubicacion": "Sitges",
+        "f_start": "06-02-2002",
+        "f_end": "Actualidad"
+      }
+    ]
+  },
+  {
+    "nombre": "Ludmila",
+    "email": "mihifiden@gmail.com",
+    "edad": 100,
+    "works": [
+      {
+        "empresa": "Twooweb",
+        "ubicacion": "Barcelona",
+        "f_start": "26-07-1999",
+        "f_end": "27-09-2023"
+      },
+      {
+        "empresa": "Geek&Chic",
+        "ubicacion": "Valencia",
+        "f_start": "20-01-2012",
+        "f_end": "actualidad"
+      },
+      {
+        "empresa": "Twitter",
+        "ubicacion": "Sitges",
+        "f_start": "06-02-2002",
+        "f_end": "Actualidad"
+      }
+    ]
+  }
+]

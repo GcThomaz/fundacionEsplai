@@ -75,34 +75,10 @@ function operacionMemorys(operador) {
       input.value = memory;
       break;
     case "c":
-      memory = 0;
+      memory = "";
       break;
 
     default:
       break;
   }
-}
-
-function memoryAdd() {
-  temporal = input.value;
-  mAdd = input.value;
-}
-
-function memorySub() {
-  temporal = input.value;
-  mSub = input.value;
-}
-
-function memoryRead() {
-  temporal = input.value;
-  mRead = input.value;
-}
-
-function memoryClean() {
-  /*if (input.value != "") {
-        input.value = "";
-    } else {
-        temporal = 0;
-        operacion = "";
-    }*/
 }
